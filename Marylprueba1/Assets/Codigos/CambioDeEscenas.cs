@@ -22,7 +22,12 @@ public class CambioDeEscenas : MonoBehaviour
 
     public void CargarInicio2()
     {
-        SceneManager.LoadScene("Inicio 2");
+        SceneManager.LoadScene("instructions");
+    }
+
+    public void CargarInicio3()
+    {
+        SceneManager.LoadScene("instructions_2");
     }
 
 }
